@@ -32,4 +32,4 @@ Issues = "https://github.com/faridSrydi/faridlib/issues"
 
 
 [project.scripts]
-farid-ml = "faridlib.machine_learning:run"
+faridlib = "faridlib.machine_learning:run"
