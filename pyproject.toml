@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "faridlib"
+version = "0.0.1"
+description = "CLI launcher untuk project Machine Learning Labs"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "All Rights Reserved" }
+
+authors = [
+    { name = "Farid Suryadi", email = "nanarananaru2024@gmail.com" }
+]
+
+keywords = ["python", "cli", "machine-learning", "labs", "automation"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+
+[project.urls]
+Homepage = "https://github.com/faridSrydi/faridlib"
+Repository = "https://github.com/faridSrydi/faridlib"
+Issues = "https://github.com/faridSrydi/faridlib/issues"
+
+
+[project.scripts]
+farid-ml = "faridlib.machine_learning:run"
